@@ -128,8 +128,8 @@ struct SGPPoint
 class SGPSector
 {
 public:
-	UINT16 x = 0;
-	UINT16 y = 0;
+	INT16 x = 0;
+	INT16 y = 0;
 	INT8 z = 0;
 
 	SGPSector() noexcept = default;
