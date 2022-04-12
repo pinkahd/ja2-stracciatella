@@ -277,7 +277,7 @@ set(
     string_theory-internal
 )
 if (MINGW)
-    LIST(APPEND JA2_LIBRARIES mingw_stdthreads)
+    LIST(APPEND JA2_LIBRARIES mingw_stdthreads comctl32)
 endif()
 
 if (CMAKE_CXX_COMPILER_ID STREQUAL "GNU")
